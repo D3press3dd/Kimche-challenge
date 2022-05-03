@@ -2,7 +2,7 @@
 
 Nombre postulante: [Anthony Rosman](https://www.anthonyrosman.com/)
 
-Link a la app en producción: [LINK DEL DEPLOY]
+Link a la app en producción: [LINK DEL DEPLOY](https://kimche-anthonyrosman.netlify.app/)
 
 ## Preview
 
