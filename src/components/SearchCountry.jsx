@@ -95,7 +95,7 @@ function SearchCountry() {
                 animate={{ opacity: 1, y: -0 }}
                 transition={{ duration: 0.5, type: 'spring' }}
               >
-                {loading ? <Spinner /> : 'Try looking something 😑'}
+                {loading ? <Spinner /> : queryDebounced.length > 0 && countriesFiltered.length === 0 ? 'No results to show 😐' : 'Try looking something 😑'}
 
               </NoResultsToShow>
             )
